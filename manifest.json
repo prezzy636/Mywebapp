@@ -1,32 +1,37 @@
 {
   "name": "Textdrai",
   "short_name": "Textdrai",
+  "description": "Your AI every day companion helping you along your burning journey through",
   "start_url": "/Mywebapp/",
   "scope": "/Mywebapp/",
   "display": "fullscreen",
   "background_color": "#1f1f2e",
   "theme_color": "#1f1f2e",
-  "description": "Your AI every day companion helping you along your burning journey through",
   "icons": [
     {
-      "src": "icons/android-chrome-192x192.png",
+      "src": "icons/android-launchericon-192-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "icons/android-chrome-512x512.png",
+      "src": "icons/android-launchericon-512-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icons/android-launchericon-192-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/android-launchericon-512-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
-  ],
-  "id": "Textdrai",
-  "display_override": [
-    "fullscreen",
-    "minimal-ui",
-    "browser",
-    "standalone",
-    "window-controls-overlay"
   ],
   "categories": [
     "productivity",
