@@ -1,0 +1,72 @@
+{
+  "name": "Textdrai",
+  "short_name": "Textdrai",
+  "start_url": "/Mywebapp/",
+  "scope": "/Mywebapp/",
+  "display": "fullscreen",
+  "background_color": "#1f1f2e",
+  "theme_color": "#1f1f2e",
+  "description": "Your AI every day companion helping you along your burning journey through",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "Textdrai",
+  "display_override": [
+    "fullscreen",
+    "minimal-ui",
+    "browser",
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "books",
+    "business",
+    "education",
+    "entertainment",
+    "finance",
+    "fitness",
+    "food",
+    "games",
+    "government",
+    "health",
+    "kids",
+    "lifestyle",
+    "magazines",
+    "medical",
+    "music",
+    "navigation",
+    "news",
+    "personalization",
+    "photo",
+    "politics",
+    "productivity",
+    "security",
+    "shopping",
+    "social",
+    "sports",
+    "travel",
+    "utilities",
+    "weather"
+  ]
+}
